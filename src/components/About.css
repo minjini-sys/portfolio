@@ -10,18 +10,7 @@
 .tab-panel.active { animation: fade .35s ease; }
 @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
-.swot { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 28px; }
-.swot-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
-.swot-card h4 { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-.swot-card h4 span { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-weight: 900; }
-.swot-card p { color: var(--muted); font-size: .92rem; }
 
-@media (max-width: 860px) {
-  .swot { grid-template-columns: repeat(2, 1fr); }
-}
 @media (max-width: 720px) {
   .tab-panels, .about-intro { padding-left: 20px; padding-right: 20px; }
-}
-@media (max-width: 420px) {
-  .swot { grid-template-columns: 1fr; }
 }

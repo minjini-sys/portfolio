@@ -23,13 +23,13 @@ export default function Skills() {
             <div class="skill-group reveal">
               <h3>Language &amp; Data</h3>
               <ul class="chips">
-                <li>Python</li><li>Java</li><li>C</li><li>MySQL</li><li>Hadoop · Spark (수강 중)</li>
+                <li>Python</li><li>Java</li><li>C</li><li>MySQL</li><li>Hadoop · Spark </li>
               </ul>
             </div>
             <div class="skill-group reveal">
               <h3>Cloud 학습</h3>
               <ul class="chips">
-                <li>AWS SAA-C03 재도전 준비</li><li>SAP-C02 학습 노트</li><li>AWS News 정리 70편+</li><li>NAVER Cloud Platform</li>
+                <li>AWS SAA-C03 스터디 진행 </li><li>NAVER Cloud Platform</li>
               </ul>
             </div>
           </div>
