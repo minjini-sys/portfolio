@@ -1,0 +1,12 @@
+/* SKILLS */
+.skill-groups { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.skill-group { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+.skill-group h3 { font-size: 1.05rem; margin-bottom: 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips li { background: var(--bg-card-2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 13px; font-size: .88rem; transition: border-color .2s, color .2s; }
+.chips li:hover { border-color: var(--accent); color: var(--accent); }
+.chips li.strong { border-color: var(--accent); color: var(--accent); }
+
+@media (max-width: 860px) {
+  .skill-groups { grid-template-columns: 1fr; }
+}

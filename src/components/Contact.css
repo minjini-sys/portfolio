@@ -1,0 +1,5 @@
+/* CONTACT */
+.contact { text-align: center; }
+.contact-list { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; }
+.contact-list a, .contact-list span { display: inline-block; padding: 10px 18px; border-radius: 8px; background: var(--bg-card); border: 1px solid var(--line); }
+.contact-list a:hover { border-color: var(--accent); color: var(--accent); }

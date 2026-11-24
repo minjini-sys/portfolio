@@ -1,0 +1,9 @@
+/* SECTIONS */
+.section { max-width: var(--max); margin: 0 auto; padding: 100px 24px; }
+.section-title { font-size: clamp(1.8rem, 4vw, 2.4rem); font-weight: 900; text-align: center; }
+.section-title::after { content: ""; display: block; width: 44px; height: 4px; background: var(--accent); border-radius: 2px; margin: 12px auto 0; }
+.section-sub { text-align: center; color: var(--muted); margin: 14px auto 44px; max-width: 620px; }
+
+@media (max-width: 720px) {
+  .section { padding: 80px 16px; }
+}
