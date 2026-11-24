@@ -14,25 +14,12 @@ export default function About() {
           </div>
 
           <div class="tabs reveal" role="tablist" aria-label="자기소개 항목">
-            <button class="tab active" role="tab" aria-selected="true" data-tab="t1">성장 과정</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="t2">성격 및 장단점</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="t3">주요 경험</button>
+            <button class="tab active" role="tab" aria-selected="true" data-tab="t3">주요 경험</button>
             <button class="tab" role="tab" aria-selected="false" data-tab="t4">자유주제</button>
           </div>
 
           <div class="tab-panels reveal">
-            <article class="tab-panel active" id="t1" role="tabpanel">
-              <h3>백지에 적을 수 있어야 아는 것이다</h3>
-              <p>어릴 때 문제를 많이 푸는데도 왜 성적이 오르지 않을까 고민한 적이 있습니다. 개념은 분명 다 아는데 내가 머리가 나쁜 건가 하는 생각도 들었습니다. 그러다 공부법 영상에서 전교 1등 학생들의 차이는 IQ가 아니라 메타인지, 즉 내가 얼마나 알고 있는지 파악하는 능력이라는 것을 알게 되었습니다. 저도 제 메타인지를 시험해 보려고 수학 공식을 백지에 적어 보았는데, 생각만큼 적히지 않았습니다. 그때 제가 오만했다는 것을 깨닫고, 이후로는 개념을 배우면 항상 백지에 써 보는 습관을 들였습니다. 그 결과 암기 과목은 물론 수학처럼 이해와 응용이 필요한 과목에서도 좋은 성적을 얻었습니다.</p>
-              <p>이 습관 덕분에 제가 모르는 것을 정확히 알고 질문할 수 있게 되었습니다. 선생님들께 "너는 질문하는 걸 보면 잘될 것 같다"는 말을 자주 들었고, 이 습관은 대학교에서 전교 1등을 하는 데까지 이어졌습니다.</p>
-            </article>
-            <article class="tab-panel" id="t2" role="tabpanel" hidden>
-              <h3>꾸준함과, 무너진 다음을 설계하는 힘</h3>
-              <p>저의 장점은 꾸준함입니다. 고등학교 2학년까지 과체중이었던 저는 고3 때 다이어트를 결심했습니다. 극단적으로 빼면 요요가 올 것 같아, 평생 가져갈 습관을 만들자는 방향으로 시작했습니다. 세 끼를 모두 먹되 단백질 위주로 바꾸고, 운동은 하루 30분에서 1시간까지 늘렸습니다. 그 결과 10kg 이상 감량했고, 3년째 한 번도 요요 없이 유지하고 있습니다.</p>
-              <p>단점은 완벽주의입니다. 계획대로 하지 못하면 그동안의 노력이 모두 무너진 것처럼 느꼈습니다. 한 끼를 참지 못한 날에는 "어차피 망했다"며 야식까지 먹고 우울하게 누웠습니다. 그런데 돌아보니 저를 망친 것은 그 한 끼가 아니라 그 뒤의 포기였습니다. 실수보다 그다음 선택이 결과를 더 크게 바꾼다는 것을 깨닫고, 지난 일은 보내고 다음 할 일에 집중하기로 했습니다.</p>
-              <p>이 태도는 실패를 대하는 방식이 되었습니다. SAA 시험에서 한 문제 차이로 떨어졌지만 포기하지 않고, SA라는 꿈을 향해 다시 준비하고 있습니다.</p>
-            </article>
-            <article class="tab-panel" id="t3" role="tabpanel" hidden>
+            <article class="tab-panel active" id="t3" role="tabpanel">
               <h3>AI가 만든 인프라를 내가 설명할 수 있을 때까지</h3>
               <p>ABC 해커톤에서 AI Quant Maker라는 서비스의 AWS 배포 인프라를 Terraform으로 설계했습니다. 코드는 AI의 도움으로 빠르게 만들었지만, 제가 설명하지 못하는 인프라는 제 것이 아니라고 생각했습니다. 그래서 VPC, 서브넷, ECS Fargate, ALB, RDS 같은 리소스가 실제 아키텍처에서 어떤 역할을 하는지 하나씩 그림으로 그려 가며 이해했습니다.</p>
               <p>이어서 이 구조가 정말 최적인지 따져 보았습니다. AWS 공식 문서를 참고해 비용·보안·가용성 기준으로 살펴보고, 해커톤 규모에 비해 NAT Gateway 비용이 크지 않은지, 더 단순한 구성은 없는지 대안을 비교했습니다.</p>
